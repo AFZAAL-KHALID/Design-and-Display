@@ -30,7 +30,7 @@
     background-color: gray;
 }
 .secondContainer::-webkit-scrollbar-track{
-    background-color: rgb(79, 78, 78);
+    background-color: rgb(160, 172, 224);
 }
 
 .secondContainer::-webkit-scrollbar-thumb{
@@ -105,5 +105,6 @@ body{
   .ListUL{
     z-index: 2;
     background-color: white;
+    color: #f5676582;
 }
 

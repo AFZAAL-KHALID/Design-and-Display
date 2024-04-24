@@ -28,6 +28,16 @@
     <div class="homeDiv    relativew-full h-screen bg-[#f2e9e4] overflow-hidden ">
         <!-- header -->
         <div class="header  relative top-0 w-full border-b-[#9d8189] border-opacity-10 sm:border-opacity-0 border-b-2 h-[6rem] lg:h-[8rem] p-6 sm:p-2 lg:p-8  flex justify-between items-center text-[4vw] sm:text-[2.5rem]">
+           
+            <!-- Cart🛒 -->
+            <div class="Cart  fixed  right-[3.5rem] md:right-4 top-2 md:top-[5rem] z-[999]   rounded-2xl bg-transparent md:bg-gradient-to-br from-[#a86a6a] to-pink-400/50 flex justify-center items-center">
+                <i class="ri-shopping-cart-2-line      w-[80%] h-[80%] rounded-xl bg-slate-50/20 text-[2rem] md:text-[3rem] m-3"></i>
+
+                <div class="countCartItems w-[1.5rem] h-[1.5rem] absolute top-[-10%] md:top-[-15%] right-2 rounded-[50%]  text-white flex justify-center items-center 
+                text-[1rem] md:text-[1.5rem] p-1 bg-transparent"></div>
+                
+            </div>
+
             <div class="logo       h-full "><img src="./assets/amin pics/logo.jpg" class="absolute top-4 sm:top-1  xl:top-2 w-[10vw] sm:w-[6vw] md:w-[5vw]  object-cover"></div>
             <!-- search -->
             <div  class="search  bg-white absolute left-[20%] sm:left-[10%]  text-[3.5vw] sm:text-[2vw] lg:text-[1.5vw]  w-[50vw] sm:w-[40vw] xl:w-[60vw] lg:h-[70%] px-4 xl:px-[2.5rem] py-[3px] xl:py-0 rounded-[3rem] flex sm:justify-between xl:justify-normal items-center">
@@ -77,11 +87,11 @@
 
 
 <!-- 2nd 2️⃣ container categories-->
-    <div class="secondContainer     w-full h-screen p-8 bg-[#f2e9e4] overflow-y-auto ">
-        <div class="opetions     w-full pt-8 p-4 bg-gradient-to-r from-[#f2e9e4] to-white  border-[2px]  border-[#f28482] rounded-md flex flex-row items-start justify-start flex-wrap gap-2">
+    <div class="secondContainer  border-4 border-gray-600   w-full h-screen p-8 bg-[#f2e9e4] overflow-y-auto ">
+        <div id="productSection" class="opetions  relative   w-full pt-8 p-4 bg-gradient-to-r from-[#f2e9e4] to-white  border-[2px]  border-[#f28482] rounded-md flex flex-row items-start justify-start flex-wrap gap-2">
+       
         </div>
-        <div id="productSection" class="allProduts       bg-white relative min-h-full mt-6 w-[95%]  p-4 shadow-md border-4 border-gray-600  flex flex-wrap items-center justify-center gap-4">
-            <div class="titleCategoy    absolute  top-[-3rem]  left-[50%]   translate-x-[-50%]  font-[logo] font-bold text-[5rem] z-4">CATEGORIES</div>
+        <div  class="allProduts       bg-white relative min-h-full mt-6 w-[95%]  p-4 shadow-md border-2 border-gray-600/20  flex flex-wrap items-center justify-center gap-4">
         </div>
     </div>
 </div>
@@ -117,14 +127,14 @@
         <h1 class=" font-5rem  absolute top-[2%] left-[10%]  text-[3rem]  lg:text-[5rem] font-semibold font-[logo] " >Get in Touch:</h1>
         <div class="contactBox  absolute top-[15%] md:top-[5%]  right-4 md:right-[3%]  w-[95%] md:w-[60%] h-[80%] md:h-[85%] border-[3px] border-black border-solid flex  flex-col sm:flex-row justify-between sm:justify-center items-center">
            <div id="Emaildiv"  class="email            w-full  sm:w-1/2 h-[80%] sm:h-full    ">
-            <form action="https://api.web3forms.com/submit" method="POST" class="form    h-full w-full px-10 py-2 flex flex-col justify-center  items-start gap-[1.5rem] text-[2rem] md:text-[2.5rem] ">
+            <form action="https://api.web3forms.com/submit" method="POST" class="form     h-full w-full px-10 py-2 flex flex-col justify-center  items-start gap-[1.5rem] text-[2rem] md:text-[2.5rem] ">
 
             <input type="hidden" name="access_key" value="91cbdbb0-2118-4ac3-b58b-06c3953cf745">
 
-            <input type="text" name="name" placeholder="Full Name" required id="Name" class="inputName  w-[80%]  border-b-[3px] border-gray-700 bg-transparent focus:outline-none">
+            <input type="text" name="name" placeholder="Full Name" required id="Name" class="inputName  w-[80%]  border-b-[3px] border-gray-700 bg-transparent hover:placeholder:text-gray-500 focus:outline-none">
            
-            <input type="email" name="email" placeholder="E-mail" required class="inputEmain  w-[80%]  border-b-[3px] border-gray-700 bg-transparent focus:outline-none">
-            <textarea name="message" placeholder="Your Message" class="yourMessage            w-[80%]  border-b-[3px] border-gray-700 bg-transparent focus:outline-none"></textarea>
+            <input type="email" name="email" placeholder="E-mail" required class="inputEmain  w-[80%]  border-b-[3px] border-gray-700 bg-transparent focus:outline-none hover:placeholder:text-gray-500">
+            <textarea name="message" placeholder="Your Message" class="yourMessage            w-[80%]  border-b-[3px] border-gray-700 bg-transparent focus:outline-none hover:placeholder:text-gray-500"></textarea>
         
         <div class="flex">
             <button type="submit " class="submitBTN        rounded-xl bg-gray-700 hover:bg-black hover:shadow-lg text-white px-8 h-[5rem] text-[1.5rem] sm:text-[2rem] m-2 ">Send</button>
@@ -168,25 +178,26 @@
     </div>
 </div>
 
-<!-- <img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" >
-<img src="./assets/products/themedearromancemail2" > -->
+
+<!-- show cart data -->
+<div class="showCart     fixed top-0 left-0 w-[100vw] h-[100vh] bg-black bg-opacity-[0.5] z-[999] scale-0">
+        
+    <div class="showCartDIV      fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80vw] h-[80vh] bg-white p-4">
+        <span class="material-symbols-outlined xIcon absolute right-3 top-3 cursor-pointer hover:scale-[1.2]">close</span>
+        <i class="ri-shopping-cart-fill  top-3 left-2  text-[2rem]"></i>
+       
+            <div class="ShowData    w-[95%] h-[80%] overflow-y-scroll mx-auto my-4 ">     </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
