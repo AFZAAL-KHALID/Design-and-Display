@@ -13,54 +13,54 @@
     <title >Design & Display</title>
 </head>
 <body class="body    w-full h-100% ">
-<div class="mainforScroll    ">
+<div class="mainforScroll ">
     
         <!-- intro Div -->
     <div class="intro 
     scale-0
-     fixed bg-white z-30 w-full h-screen flex justify-center items-center flex-col  font-[new] leading-none text-[6rem] font-thin overflow-hidden">
+     fixed bg-[#ff0054] w-full h-screen flex justify-center items-center flex-col  font-[new] leading-none text-[6rem]  text-white font-thin overflow-hidden z-[999]">
         <h1 >Unlock  <span class="font-[smile]">smile</span> </h1>
         <h1 >with our</h1>
-        <h1 class="     relative">service today <span class="dot inline-block bg-[#f0a67e] w-4 h-4 rounded-[50%] absolute left-[100%] top-[90%] "></span></h1>
+        <h1 class="relative ">service today <span class="dot inline-block bg-[white] w-4 h-4 rounded-[50%] absolute left-[100%] top-[90%] "></span></h1>
     </div>
+
+
+    
 <!-- 1st 1️⃣ container -->
     <!-- home div -->
-    <div class="homeDiv    relativew-full h-screen bg-[#f2e9e4] overflow-hidden ">
-        <!-- header -->
-        <div class="header  relative top-0 w-full border-b-[#9d8189] border-opacity-10 sm:border-opacity-0 border-b-2 h-[6rem] lg:h-[8rem] p-6 sm:p-2 lg:p-8  flex justify-between items-center text-[4vw] sm:text-[2.5rem]">
-           
-            <!-- Cart🛒 -->
-            <div class="Cart  fixed  right-[3.5rem] md:right-4 top-2 md:top-[5rem] z-[999]   rounded-2xl bg-transparent md:bg-gradient-to-br from-[#a86a6a] to-pink-400/50 flex justify-center items-center">
-                <i class="ri-shopping-cart-2-line      w-[80%] h-[80%] rounded-xl bg-slate-50/20 text-[2rem] md:text-[3rem] m-3"></i>
 
-                <div class="countCartItems w-[1.5rem] h-[1.5rem] absolute top-[-10%] md:top-[-15%] right-2 rounded-[50%]  text-white flex justify-center items-center 
+    <div class="homeDiv   relativew-full h-screen bg-[white] overflow-hidden  ">
+        
+        <div class="successMassage  z-[1050] fixed bottom-6 right-6 px-8 py-5 rounded-lg  text-[2rem] bg-gradient-to-r from-[#ff5c35] to-red-400 text-white font-bold hidden ease-linear ">&check; Successfully Added!</div>
+        
+    <!-- header -->
+        <div id="header" class="header  relative top-0 w-full border-b-[#9d8189] border-opacity-10 sm:border-opacity-0 border-b-2 h-[6rem] lg:h-[8rem] p-6 sm:p-2 lg:p-8  flex justify-between items-center text-[4vw] sm:text-[2.5rem]  ">
+            
+            <a href="#header" title="Home" class="bringTOP opacity-0  fixed bottom-[4rem] w-[3rem] md:w-[5rem] md:h-[5rem] h-[3rem] flex justify-center items-center text-[1.5rem] md:text-[2rem] right-[2rem] md:right-[4rem] rounded-full cursor-pointer p-2 bg-gray-500/20 z-[10] hover:border-[2px] hover:border-black hover:bg-white "><i class="ri-arrow-up-double-line"></i></a>
+    <!-- Cart🛒 -->
+            <div class="Cart  fixed  right-[3.5rem] sm:right-[3rem]  top-2   hover:bg-gray-600/10 rounded-full p-3  z-[997]    bg-transparent  flex justify-center items-center cursor-pointer">
+                <i class="ri-shopping-cart-2-line      w-[80%] h-[80%]     text-[2rem] md:text-[3rem] m-3"></i>
+
+                <div class="countCartItems w-[2.5rem] h-[2.5rem] absolute top-[-10%] md:top-[-1%] right-2 rounded-[50%]  text-white flex justify-center items-center     
                 text-[1rem] md:text-[1.5rem] p-1 bg-transparent"></div>
-                
             </div>
 
-            <div class="logo       h-full "><img src="./assets/amin pics/logo.jpg" class="absolute top-4 sm:top-1  xl:top-2 w-[10vw] sm:w-[6vw] md:w-[5vw]  object-cover"></div>
-            <!-- search -->
-            <div  class="search  bg-white absolute left-[20%] sm:left-[10%]  text-[3.5vw] sm:text-[2vw] lg:text-[1.5vw]  w-[50vw] sm:w-[40vw] xl:w-[60vw] lg:h-[70%] px-4 xl:px-[2.5rem] py-[3px] xl:py-0 rounded-[3rem] flex sm:justify-between xl:justify-normal items-center">
-                    <span class="searchIcon           p-2  h-[80%]"><i class="ri-search-line"></i></span>
-                    <input type="text" placeholder="Search. . ." class="searchInput     p-2  outline-none border-none px-2 w-[70%]">
-                    <div class="inputImage       w-[20%] xl:w-[6rem] h-full xl:h-[6rem] xl:absolute xl:right-5">
-                        <img src="./assets/spike-2372543_640.png" class="w-full h-full object-cover">
-                    </div>
-
-            </div>
+            <div class="h-full logo "><img src="./assets/amin pics/logo.jpg" class="absolute top-4 sm:top-1  xl:top-2 w-[10vw] sm:w-[6vw] md:w-[5vw]  object-cover"></div>
+       
 
             <div class="menu      flex  font-[new] font-thin capitalize ">
-                <div class="links   invisible    sm:visible flex  justify-center items-center    sm:gap-[2rem] md:gap-[2rem] lg:gap-[4rem]  sm:text-[2.1rem] md:text-[2.5rem] lg:text-[2.3rem]">
-                    <a class="link-a relative " href="#productSection">Products</a>
-                    <div class="ClickForSelect link-a relative  cursor-pointer">Themes<i class="ri-arrow-down-s-line      absolute left-full"></i>
-                        <ul class="ListUL   absolute z-1 right-[-10%] top-[115%] min-w-full text-nowrap  p-4 border-2 border-gray-500/30 rounded-[2rem] rounded-tr-none scale-0 ">      </ul> </div>
-                    <a class="link-a relative " href="#cardsection">Contact</a>
+                <div class="links   invisible    sm:visible flex   items-center    sm:gap-[2rem] md:gap-[1rem] lg:gap-[5rem]  sm:text-[2.1rem] md:text-[2.5rem] lg:text-[2.3rem] sm:mr-20">
+                    <a class="relative link-a " href="#productSection">Products</a>
+                    <div class="relative hidden cursor-pointer ClickForSelect link-a">Themes<i class="absolute ri-arrow-down-s-line left-full"></i>
+                        <ul class="ListUL   absolute z-1 right-[-10%] top-[115%] min-w-full text-nowrap  p-4 border-2 border-gray-500/30 rounded-[2rem] rounded-tr-none scale-0 ">      </ul>
+                     </div>
+                    <a class="relative link-a " href="#cardsection">Contact</a>
                 </div>
-                <i class="ri-menu-fill      visible sm:invisible "></i>
+                <i class="visible ri-menu-fill sm:invisible "></i>
             </div>
         </div>
         <!-- slide menu ⬇️ -->
-        <div class="slideMenu     absolute top-[calc(100% - 6rem)] right-0 z-[999] bg-red-500  w-full h-0 flex flex-col justify-center items-center gap-5 scale-0 transition-scale ease-in-out duration-300 font-[new] text-[8vw] text-[#f2e9e4]" 
+        <div class="slideMenu     absolute top-[calc(100% - 6rem)] right-0 z-[999] bg-[#ff0054]  w-full h-0 flex flex-col justify-center items-center gap-5 scale-0 transition-scale ease-in-out duration-300 font-[new] text-[8vw] text-[#f2e9e4]" 
         style="height: calc(100% - 6rem);"  >
             <a  href="#Emaildiv" >Email</a>
             <a  href="#cardsection">Contact</a>
@@ -70,45 +70,62 @@
         <div class="Hero       w-vw  h-[91.4%] p-4 flex justify-center items-center z-1">
            
             <!-- ⬅️ -->
-            <div class="firstLeft       w-full sm:w-1/2 h-full relative">
-                <div class="HeadingLine     absolute z-[1] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] font-[HeadLine] text-[8vw] sm:text-[5vw] whitespace-nowrap leading-[80%]">
-                    <h1>Wrap <span class="yourself    absolute z-0 bottom-[80%] left-[40%] font-[logo] text-[#f28482] ">yourself</span><div class="stars  font-serif overflow-hidden  absolute top-[-40%] left-[30%] w-[80%] h-[80%] "></div> <br> in elegance, </h1>
-                    <h1> embrace style.</h1>
+            <div class="relative w-full h-full firstLeft">
+                <div class="HeadingLine      absolute z-[1] left-[50%] top-[35%] translate-x-[-50%] translate-y-[-50%] font-[HeadLine] text-[8vw] sm:text-[5vw] whitespace-nowrap leading-[80%]">
+                    <h1 class="Design relative  cursor-pointer text-[20vw] font-thin">DESIGN <span class="yourself  text-[7vw]  absolute z-0 bottom-[80%] left-[40%] font-[logo] text-[#ff0054] ">yourself</span><div class="stars   font-serif overflow-hidden  absolute top-[-120%]  left-[30%] w-[60%] h-[300%] "></div>   </h1>
+                    <div class="down absolute left-[-5%]  rounded-full w-[2rem] md:w-[5rem] h-[2rem] md:h-[5rem] flex justify-center items-center bg-gradient-to-r from-[#ff5c35] to-red-400"><i class="ri-corner-left-down-line    text-[1rem] md:text-[2rem]"></i></div>
                 </div>
-                <a href="https://wa.me/923475447879" target="_blank" class="ContactBtn      bg-gradient-to-r from-[#ff5c35] to-red-400 hover:shadow-lg  rounded-[3rem]  text-[4vw] sm:text-[2.5rem] font-semibold text-white px-8 lg:px-10 w-[17rem]   sm:w-[21rem] py-2 absolute left-[50%] lg:left-[40%] bottom-[25%] sm:bottom-[10%]  md:bottom-[15%] translate-x-[-50%] translate-y-[-50%] flex items-start justify-start"><h1>Whatsapp</h1> <i class="ri-phone-fill       m-2 absolute right-2 top-0"></i></a>
+                <a href="https://wa.me/923475447879" target="_blank" class="ContactBtn   z-10   bg-gradient-to-r from-[#ff5c35] to-red-400   rounded-[1.5rem]  text-[4vw] sm:text-[2.5rem] font-semibold text-white px-8 lg:px-10 w-[17rem]   sm:w-[21rem] py-2 absolute left-[50%] lg:left-[50%] bottom-[25%] sm:bottom-[10%]  md:bottom-[5%] translate-x-[-50%] translate-y-[-50%] flex items-start justify-start"><h1>Whatsapp</h1> <i class="absolute top-0 m-2 ri-phone-fill right-2"></i></a>
                 
             </div>
             <!-- ➡️ -->
-            <div class="firstRight      w-0 sm:w-[50%] h-full ">
-                <img src="./assets/tree.png" alt="" class="invisible z-0 lg:visible opacity-30 w-full h-full object-fit">
-            </div>
+            <!-- <div class="firstRight      w-0 sm:w-[50%] h-full ">
+                <img src="./assets/tree.png" alt="" class="z-0 invisible w-full h-full lg:visible opacity-30 object-fit">
+            </div> -->
         </div>
     </div>
 
 
 <!-- 2nd 2️⃣ container categories-->
-    <div class="secondContainer  border-4 border-gray-600   w-full h-screen p-8 bg-[#f2e9e4] overflow-y-auto ">
-        <div id="productSection" class="opetions  relative   w-full pt-8 p-4 bg-gradient-to-r from-[#f2e9e4] to-white  border-[2px]  border-[#f28482] rounded-md flex flex-row items-start justify-start flex-wrap gap-2">
+<div class="secondContainer     w-full bg-[white]">
+
+   
+
+    <div  class="secondContainer    border-4 border-gray-600  w-[98%] h-screen p-8 bg-[white] overflow-y-auto ">
+        <div id="productSection"  class="opetions  relative   w-full pt-8 p-4 bg-gradient-to-r from-[#f2e9e4] to-white  border-[2px]  border-[#f28482] rounded-md flex flex-row items-start justify-start flex-wrap gap-2">
+        </div>
+<!-- up & down imgs btns -->
+<div class="hy relative w-full h-[0.1px] ">
+    <a href="#productSection" title="1st product"      class="upimages   opacity-0 fixed right-0 top-[3rem] z-10 rounded-full p-6 md:p-2 w-[2rem] h-[2rem] flex justify-center items-center text-[1rem] font-bold bg-gradient-to-r from-[#ff5c35] to-red-400 hover:bg-gray-700  hover:p-6"><i class="ri-arrow-up-s-fill  hover:text-white hover:text-[1.5rem]"></i></a>
+    <a href="#hr"             title="last product"     class="downimages opacity-0 fixed right-0 top-[6rem] z-10 rounded-full p-6 md:p-2 w-[2rem] h-[2rem] flex justify-center items-center text-[1rem] font-bold bg-gradient-to-r from-[#ff5c35] to-red-400 hover:bg-gray-700 hover:p-6"><i class="ri-arrow-down-s-fill hover:text-white hover:text-[1.5rem]"></i></a>
+</div>
        
+
+        <div  class="allProduts       bg-white relative min-h-full mt-6 w-[98%]  p-4 shadow-md border-2 border-gray-600/20  flex flex-wrap items-center justify-center gap-4">
+           
+
+
+            
         </div>
-        <div  class="allProduts       bg-white relative min-h-full mt-6 w-[95%]  p-4 shadow-md border-2 border-gray-600/20  flex flex-wrap items-center justify-center gap-4">
-        </div>
+        <hr id="hr"  class=" h-11">
+        <h1 class="rounded-lg inline-block  ml-[auto] text-nowrap md:ml-[40%] text-[red] my-6 border-2 font-bold border-black px-4 md:px-6 py-2 md:py-4 text-[2rem]">No More Products</h1>
     </div>
+</div>
 </div>
 
 <!-- Cards Section -->
-<div id="cardsection" class="cardsSection   bg-[#f2e9e4] w-full h-1/2 flex justify-center items-center gap-[5%]">
+<div id="cardsection" class="cardsSection   bg-[white] w-full h-1/2 flex justify-center items-center gap-[5%]">
     <div class="firstCard   w-[45%] sm:w-[30%] h-[80%] flex justify-center items-center flex-col leading-0  bg-white rounded-3xl shadow-2xl hover:scale-[1.1] hover:border-[#FF5C35] border-[2px] transition-transform duration-700">
         <img src="./assets/dir1.png" alt=""  class="w-[30%] md:w-[40%]  rounded-lg" >
         <h1 class="     text-[1.8rem] md:text-[3rem] font-semibold">BABAR KHAN</h1>
         <h2 class="     text-[1.6rem] sm:text-[2rem] font-semibold text-gray-600">Director</h2>
-        <button onclick="window.location.href='tel:+92 3212117091'" class=" bg-[#FF5C35] mt-7 sm:mt-o rounded-lg p-2 font-semibold text-white text-[1rem] sm:text-[2rem] hover:bg-red-500 hover:shadow-lg">+92 3212 117091</button>
+        <button title="Click to make a Call" onclick="window.location.href='tel:+92 3212117091'" class=" bg-[#ff5c35]  hover:bg-gradient-to-l from-[#38b000] to-[#70e000] mt-7 sm:mt-0 rounded-lg p-2 font-semibold text-white text-[1rem] sm:text-[2rem]   hover:shadow-lg "> <i class="ri-phone-fill"></i> +92 3212 117091 </button>
     </div>
     <div class="secondCard w-[45%] sm:w-[30%] h-[80%] flex justify-center items-center flex-col leading-0  bg-white rounded-3xl shadow-2xl hover:scale-[1.1] hover:border-[#FF5C35] border-[2px] transition-transform duration-700">
         <img src="./assets/dir2.png" alt=""  class="w-[30%] md:w-[40%] rounded-lg" >
-        <h1 class="     text-[1.8rem] md:text-[3rem] font-semibold">AMEEN KHAN</h1>
+        <h1 class="     text-[1.8rem] md:text-[3rem] font-semibold">AMEEM KHAN</h1>
         <h2 class="     text-[1.6rem] sm:text-[2rem] font-semibold text-gray-600">Director</h2>
-        <button onclick="window.location.href='tel:+92 3009227216'" class=" bg-[#FF5C35] mt-7 sm:mt-o rounded-lg p-2 font-semibold text-white text-[1rem] sm:text-[2rem] hover:bg-red-500 hover:shadow-lg">+92 300 9227216</button>
+        <button title="Click to make a Call" onclick="window.location.href='tel:+92 3009227216'" class=" bg-[#ff5c35]  hover:bg-gradient-to-l from-[#38b000] to-[#70e000] mt-7 sm:mt-o rounded-lg p-2 font-semibold text-white text-[1rem] sm:text-[2rem]  hover:shadow-lg"> <i class="ri-phone-fill"></i> +92 300 9227216</button>
     </div>
 </div>
 
@@ -122,9 +139,11 @@
         
     </div>
 </div>
-<!-- 4th 4️⃣ container -->
-    <div class="forthContainer   relative  w-full h-[50%]  bg-[#f2e9e4]   ">
-        <h1 class=" font-5rem  absolute top-[2%] left-[10%]  text-[3rem]  lg:text-[5rem] font-semibold font-[logo] " >Get in Touch:</h1>
+<!-- 4th 4️⃣ container Email -->
+    <div id="forthContainer" class="forthContainer   relative  w-full h-[50%]  bg-[white]   ">
+        <h1 class=" font-5rem  absolute top-[2%] left-[10%]  text-[3rem]  lg:text-[5rem] font-semibold font-[logo] " >Get in Touch:
+            <div class="mailimgBox invisible md:visible w-[10rem] h-[10rem]"><img src="./assets/amin pics/mailIcon.png" width="100%" height="100%" class="object-cover" ></div>
+        </h1>
         <div class="contactBox  absolute top-[15%] md:top-[5%]  right-4 md:right-[3%]  w-[95%] md:w-[60%] h-[80%] md:h-[85%] border-[3px] border-black border-solid flex  flex-col sm:flex-row justify-between sm:justify-center items-center">
            <div id="Emaildiv"  class="email            w-full  sm:w-1/2 h-[80%] sm:h-full    ">
             <form action="https://api.web3forms.com/submit" method="POST" class="form     h-full w-full px-10 py-2 flex flex-col justify-center  items-start gap-[1.5rem] text-[2rem] md:text-[2.5rem] ">
@@ -138,7 +157,7 @@
         
         <div class="flex">
             <button type="submit " class="submitBTN        rounded-xl bg-gray-700 hover:bg-black hover:shadow-lg text-white px-8 h-[5rem] text-[1.5rem] sm:text-[2rem] m-2 ">Send</button>
-            <button type="reset " title="reset" class="ClearBTN              rounded-xl bg-white hover:bg-yellow-100/20 hover:shadow-lg text-gray-600 px-8 h-[5rem] text-[1.5rem] sm:text-[2rem] m-2 ">Reset</button>
+            <input type="reset" value="Reset" class="reset-btn rounded-xl  border-[1px] hover:bg-yellow-100/20 hover:shadow-lg text-gray-600 px-8 h-[5rem] text-[1.5rem] sm:text-[2rem] m-2">
         </div>
         
         </form>
@@ -168,10 +187,15 @@
     <footer class="footer   bg-[#f2e9e4] lg:bg-transparent  text-gray-500 text-lg md:text-3xl font-semibold w-full  flex justify-center items-center">        Copyright © 2024 Design & Display. All rights reserved.<SPan class="font-[logo]">(designed by Afzaal)</SPan></footer>
 </div>
 
-
+<!-- Extra Divs  -->
 <!-- black shadow and expand product image -->
 <div class="blackshadow     fixed top-0 left-0 w-[100vw] h-[100vh] bg-black bg-opacity-[0.5] z-[999] scale-0">
         
+    
+    
+    
+    
+    
     <div class="fixedToExpand      fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80vw] h-[80vh] bg-white p-4">
         <span class="material-symbols-outlined  absolute right-3 top-3 cursor-pointer hover:scale-[1.2]">close</span>
         <img src="" alt="" class="ExpandThis    w-[95%] h-[95%] object-cover mx-auto my-2">
@@ -181,24 +205,46 @@
 
 <!-- show cart data -->
 <div class="showCart     fixed top-0 left-0 w-[100vw] h-[100vh] bg-black bg-opacity-[0.5] z-[999] scale-0">
+ 
+    <!-- user Guide -->
+    <div class="UserGuid  text-gray-600 opacity-0 md:opacity-[1] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] w-[90%] h-[90%] backdrop-blur-lg z-[1000] flex justify-center items-center flex-col gap-2 p-4 ">
+       
+        <div class="firstGuide   w-full  h-[30%]  flex justify-around items-center border-b-2 border-b-gray-500/20 overflow-hidden hover:overflow-visible">
+            <img class="w-[35%] object-fit hover:w-[50%] hover:object-bottom   ease-linear duration-[0.5s]" src="./assets/GuildeLine/Add to Cart.png" >
+            
+            <h3 class=" font-bold text-[2rem] font-[new]"><span class="font-bolder text-[5rem] text-black">HOW TO USE</span><br>&#8592; Press Add Button <br> for Add to Cart </h3>
+        </div> 
         
-    <div class="showCartDIV      fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80vw] h-[80vh] bg-white p-4">
+        <div class="secondGuide  w-full  h-[30%]  flex justify-around items-center overflow-hidden hover:overflow-visible border-b-2 border-b-gray-500/20">
+            <h3 class=" font-bold text-[2rem] font-[new]">After Adding in Cart <br> Click this <span class="text-green-500">Green</span> Button to Send Email to us &#8594; </h3>
+            <img class="w-[35%] object-fit hover:w-[50%] hover:object-bottom  ease-linear duration-[0.5s]" src="./assets/GuildeLine/Send Button.png" >
+            
+        </div>    
+        
+        <div class="thirdGuide   w-full  h-[30%]  flex justify-around items-center overflow-hidden hover:overflow-visible">
+            <img class="w-[35%] object-fit hover:w-[50%] hover:object-bottom  ease-linear duration-[0.5s]" src="./assets/GuildeLine/Email Box.png" >
+            <h3 class=" font-bold text-[2rem] font-[new]">&#8592; You will reach here, <br> your selected items are added in Email Massage <br>Because there is no payment method available in this website <br>add your Name and Email then press Send </h3>
+            
+        </div>  
+        <button onclick="hideUserGuild()"  class="OKButton   absolute bottom-[0%] left-[50%] w-[10rem] h-[5rem] rounded-lg bg-green-400 hover:bg-gradient-to-r from-[#38b000] to-[#70e000] hover:shadow-xl hover:scale-[1.1]  text-white text-[1.5rem] font-bold">OK</button>
+    </div>
+    
+        
+    <div  class="showCartDIV      fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[80vw] h-[80vh] bg-[white] p-4">
         <span class="material-symbols-outlined xIcon absolute right-3 top-3 cursor-pointer hover:scale-[1.2]">close</span>
         <i class="ri-shopping-cart-fill  top-3 left-2  text-[2rem]"></i>
-       
-            <div class="ShowData    w-[95%] h-[80%] overflow-y-scroll mx-auto my-4 ">     </div>
+<!-- Final Email Send Btn 📨 -->
+        <a href="#forthContainer">
+            
+            <button title="Send all desings you selected." class="SendEmail   absolute top-3 left-[50%] w-[8rem] md:w-[10rem] h-[3rem] md:h-[5rem] rounded-lg bg-green-400 hover:bg-gradient-to-r from-[#38b000] to-[#70e000] hover:shadow-xl hover:scale-[1.1]  text-white text-1rem md:text-[1.5rem] font-bold">Send Email</button>
+           
+        </a>
+            <div class="ShowData    w-[95%] h-[90%] overflow-y-scroll mx-auto my-4 bottom-0 ">     </div>
     </div>
+
+
+        
 </div>
-
-
-
-
-
-
-
-
-
-
 
 
 

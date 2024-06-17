@@ -4,7 +4,7 @@
   "description": "",
   "main": "home.js",
   "scripts": {
-    "vite": "vite"
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
