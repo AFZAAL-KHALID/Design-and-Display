@@ -60,7 +60,7 @@ function intro() {
         top:-100
     })
 };
-// intro();
+intro();
 
 
 
